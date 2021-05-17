@@ -137,7 +137,7 @@ table {
 /***/
 
 body {
-    font-size  : 14px;
+    font-size  : 16px;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -168,10 +168,39 @@ body {
 
 .top-nav .main-nav ul li a {
     display        : inline-block;
-    padding        : 0.875rem 0.75rem;
+    padding        : 1.125rem 0.75rem;
     color          : #ffff;
     text-decoration: none;
     text-transform : uppercase;
     font-weight    : 800;
 
+}
+
+.carousel-image {
+    background-image : url(../images/carousel-image.jpg);
+    height           : 50rem;
+    background-repeat: no-repeat;
+}
+
+.carousel-image .container {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    font-size      : 1.875rem;
+    text-transform : uppercase;
+    color          : #fff;
+    font-weight    : 900;
+    padding-top    : 8rem;
+    line-height    : 2rem;
+
+}
+
+.carousel-title :first-child {
+    padding-left: 5rem;
+}
+
+.carousel-title span i {
+    display        : flex;
+    justify-content: center;
+    padding-top    : 2rem;
 }
