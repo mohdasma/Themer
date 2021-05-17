@@ -145,7 +145,7 @@ body {
     width : 1500px;
     margin: 0 auto;
 }
-
+/***header***/
 .top-header {
     background-color: #0b0b0b;
 }
@@ -175,7 +175,7 @@ body {
     font-weight    : 800;
 
 }
-
+/***banner***/
 .carousel-image {
     background-image : url(../images/carousel-image.jpg);
     height           : 50rem;
@@ -203,4 +203,18 @@ body {
     display        : flex;
     justify-content: center;
     padding-top    : 2rem;
+}
+/**content**/
+
+.content .container{
+    display:flex;
+    
+}
+.content .container .tech-1,.tech-2,.tech-3,.tech-4{
+     display:inline-block;
+    flex-grow:1;
+    
+}
+.tech-1,.tech-2,.tech-3,.tech-4{
+    text-align: center;
 }
