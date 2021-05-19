@@ -272,6 +272,7 @@ body {
 .description :last-child {
     color         : #c9c9c9;
     text-transform: capitalize;
+    padding       : 1rem;
 }
 
 .sub-content .main,
@@ -279,24 +280,21 @@ body {
     display  : inline-block;
     display  : flex;
     height   : 25rem;
-    margin   : 5rem;
-   
+    margin   : 8rem;
+    flex-grow: 1;
+
 }
 
 .main {
     width: 70rem;
-}
 
-.sub-content h4,
-p {
-    margin-left:6.25rem;
 }
 
 .sub-content h4 {
-    font-size     :1.875rem;
+    font-size     : 1.875rem;
     font-weight   : 900;
     text-transform: uppercase;
-    padding       : .625rem 0;
+
 }
 
 .sub-content p {
