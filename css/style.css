@@ -145,6 +145,7 @@ body {
     width : 1500px;
     margin: 0 auto;
 }
+
 /***header***/
 .top-header {
     background-color: #0b0b0b;
@@ -175,10 +176,11 @@ body {
     font-weight    : 800;
 
 }
+
 /***banner***/
 .carousel-image {
     background-image : url(../images/carousel-image.jpg);
-    height           : 50rem;
+    height           : 48rem;
     background-repeat: no-repeat;
 }
 
@@ -203,18 +205,101 @@ body {
     display        : flex;
     justify-content: center;
     padding-top    : 2rem;
+    color          : #fc464a;
 }
-/**content**/
 
-.content .container{
-    display:flex;
-    
+/**content**/
+.content {
+    background-color: #fc464a;
+
 }
-.content .container .tech-1,.tech-2,.tech-3,.tech-4{
-     display:inline-block;
-    flex-grow:1;
-    
+
+.content .container {
+    display: flex;
 }
-.tech-1,.tech-2,.tech-3,.tech-4{
+
+.content .container .tech-1,
+.tech-2,
+.tech-3,
+.tech-4 {
+    display  : inline-block;
+    flex-grow: 1;
+
+}
+
+.tech-1,
+.tech-2,
+.tech-3,
+.tech-4 {
+    text-align    : center;
+    margin        : 3.75rem;
+    color         : #fff;
+    text-transform: capitalize;
+    color         : #fa8283;
+}
+
+.content h3 {
+    font-weight: 900;
+    padding    : .625rem;
+    color      : #fff;
+
+}
+
+.content span i {
+    border-radius   : 50%;
+    background-color: #fff;
+    width           : 3.75rem;
+    height          : 3.75rem;
+    line-height     : 3.75rem;
+    vertical-align  : center;
+    text-align      : center;
+    color           : #fc464a;
+}
+
+/***sub-content***/
+.sub-content .description {
     text-align: center;
+}
+
+.description :first-child {
+    font-weight   : 900;
+    font-size     : 1.5rem;
+    text-transform: capitalize;
+    padding-top   : 1.125rem;
+    color         : #0b0b0b;
+}
+
+.description :last-child {
+    color         : #c9c9c9;
+    text-transform: capitalize;
+}
+
+.sub-content .main,
+.side-bar {
+    display  : inline-block;
+    display  : flex;
+    height   : 25rem;
+    margin   : 5rem;
+   
+}
+
+.main {
+    width: 70rem;
+}
+
+.sub-content h4,
+p {
+    margin-left:6.25rem;
+}
+
+.sub-content h4 {
+    font-size     :1.875rem;
+    font-weight   : 900;
+    text-transform: uppercase;
+    padding       : .625rem 0;
+}
+
+.sub-content p {
+    line-height: 1.625rem;
+    color      : #c9c9c9;
 }
