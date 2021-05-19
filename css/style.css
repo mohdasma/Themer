@@ -277,15 +277,15 @@ body {
 
 .sub-content .main,
 .side-bar {
-    display  : inline-block;
-    display  : flex;
-    height   : 25rem;
-    margin   : 8rem;
-    flex-grow: 1;
+    display: inline-block;
+    display: flex;
+    height : 25rem;
+    margin : 5rem;
+
 
 }
 
-.main {
+.sub-content .main {
     width: 70rem;
 
 }
@@ -301,3 +301,41 @@ body {
     line-height: 1.625rem;
     color      : #c9c9c9;
 }
+
+.clients :first-child {
+    text-align : center;
+    font-size  : 2.5rem;
+    font-weight: 900;
+}
+
+.clients img {
+    display: flex;
+    margin : 3.75rem;
+    display: inline-block;
+}
+
+.portfolio {
+    height          : 25rem;
+    background-color: #fc464a;
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.portfolio div {
+    text-align: center;
+}
+
+.portfolio div h4 {
+    font-size     : 1.5625rem;
+    font-weight   : 800;
+    padding       : 0.9375rem;
+    color         : #fff;
+    text-transform: capitalize;
+}
+
+.portfolio div p {
+    color         : #fa8283;
+    text-transform: capitalize;
+}
+
+
