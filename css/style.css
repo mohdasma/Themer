@@ -222,7 +222,7 @@ body {
 .tech-2,
 .tech-3,
 .tech-4 {
-    display  : inline-block;
+    display  :flexbox;
     flex-grow: 1;
 
 }
@@ -277,7 +277,7 @@ body {
 
 .sub-content .main,
 .side-bar {
-    display: inline-block;
+    display: inline-flex;
     display: flex;
     height : 25rem;
     margin : 5rem;
@@ -302,6 +302,10 @@ body {
     color      : #c9c9c9;
 }
 
+.clients {
+    text-align: center;
+}
+
 .clients :first-child {
     text-align : center;
     font-size  : 2.5rem;
@@ -311,26 +315,28 @@ body {
 .clients img {
     display: flex;
     margin : 3.75rem;
-    display: inline-block;
+    display: inline-flex;
 }
 
+/***portfolio***/
+
 .portfolio {
-    height          : 25rem;
+    height          : 35rem;
     background-color: #fc464a;
-    display: flex;
-    flex-wrap:wrap;
+    display         : flex;
 }
 
 .portfolio div {
     text-align: center;
+    padding   :.938rem;
 }
 
 .portfolio div h4 {
     font-size     : 1.5625rem;
     font-weight   : 800;
-    padding       : 0.9375rem;
     color         : #fff;
     text-transform: capitalize;
+    padding-bottom: .313rem;
 }
 
 .portfolio div p {
@@ -338,4 +344,45 @@ body {
     text-transform: capitalize;
 }
 
+.port-images ul {
+    flex-direction: row;
+    display       : flex;
+    flex-grow     : 10;
 
+}
+
+.port-images li {
+    height: auto;
+    width : 100%;
+}
+
+.port-images img {
+    width  : 100%;
+    display:block;
+}
+
+.list ul li {
+    display       : flex;
+    display       : inline-block;
+    text-transform: uppercase;
+    font-size     : .813rem;
+}
+
+.list ul li a {
+    text-decoration: none;
+    color          : #fa8283;
+    justify-content: space-between;
+}
+/***bottom-content***/
+.content-bot .container{
+    display: flex;
+    flex-grow:1;
+
+}
+ .content-bot .container > div{
+    margin:.625rem;
+    padding: 1.25rem;
+    width:12.5rem;
+    border:1px solid #c9c9c9;
+ }
+ 
